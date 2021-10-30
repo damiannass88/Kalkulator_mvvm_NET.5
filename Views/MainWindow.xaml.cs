@@ -1,4 +1,5 @@
-﻿using MahApps.Metro.Controls;
+﻿using Kalkulator_mvvm_NET._5.ModelViews;
+using MahApps.Metro.Controls;
 
 namespace Kalkulator_mvvm_NET._5
 {
@@ -10,6 +11,7 @@ namespace Kalkulator_mvvm_NET._5
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
